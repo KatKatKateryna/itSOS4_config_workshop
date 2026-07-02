@@ -1,4 +1,6 @@
 {
-  "features": {},
+  "features": {
+    "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+  },
   "postStartCommand": "curl -O https://codeload.github.com/istSOS/istsos4-workshop/zip/main; unzip main; cd istsos4-workshop-main/workshop"
 }
